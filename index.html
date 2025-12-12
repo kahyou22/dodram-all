@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>신선한 식탁을 즐기다, 도드람몰입니다.</title>
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
     <link rel="stylesheet" href="assets/css/minho.css">
+    <link rel="stylesheet" href="assets/css/seongwoo.css">
+    <link rel="stylesheet" href="assets/css/woojin.css">
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
 </head>
 
@@ -77,19 +79,39 @@
         </div> <!-- //#header -->
     </header> <!-- header -->
 
-    <main id="main">
+    <main>
+        <div class="seongwoo">
+            <section class="top-image ">
+            <div class="left-banner left-slider ">
+                <ul class="content-box left-slides">
+                    <li><img src="./assets/img/636df30c3aef1cd9391a65bab9dec200_67572.png" alt="케이크 이미지"></li>
+                    <li><img src="./assets/img/636df30c3aef1cd9391a65bab9dec200_67572.png" alt="케이크 이미지"></li>
+                    <li><img src="./assets/img/636df30c3aef1cd9391a65bab9dec200_67572.png" alt="케이크 이미지"></li>
+                    <li><img src="./assets/img/636df30c3aef1cd9391a65bab9dec200_67572.png" alt="케이크 이미지"></li>
+                    <li><img src="./assets/img/636df30c3aef1cd9391a65bab9dec200_67572.png" alt="케이크 이미지"></li>
+                </ul>
+            </div>
+            <!-- 오른쪽 이미지 -->
+            <div class="left-banner right-slider">
+                <ul class="content-box right-slides">
+                    <li><img src="./assets/img/b01c2ce25e34f80d499f0488d034b00b_90109.png" alt="올해의브랜드상"></li>
+                    <li><img src="./assets/img/65180321a1d6b8c518cecd83b2d5f95b_62703.jpg" alt="택배사고접수"></li>
+                    <li><img src="./assets/img/154940ff7b76c7f146eb5e3c00af7757_89428.png" alt="이름짓기콘테스트"></li>
+                    <li><img src="./assets/img/1091334089b9e1d9e591e75602b54106_10073.png" alt="선착순리뷰이벤트"></li>
+                    <li><img src="./assets/img/b01c2ce25e34f80d499f0488d034b00b_90109.png" alt="올해의브랜드상"></li>
+                </ul>
+            </div>
+        </section>
+        </div>
         <!-- section#1 -->
         <section></section>
         <!-- section#2 -->
         <section></section>
         <!-- section#3 -->
         <section></section>
-        <div class="minho slide">
-            <div><a href=""><img src="assets/img/636df30c3aef1cd9391a65bab9dec200_67572.png" alt="케이크"></a></div>
-            <div><a href=""><img src="assets/img/65180321a1d6b8c518cecd83b2d5f95b_62703.jpg" alt="택배사고"></a>
-            </div>
-        </div><!-- //.slide -->
-        <div class="minho sale">
+        </div>
+        <div class="minho-wrapper">
+            <div class="minho sale">
             <ul>
                 <li><a href=""><img src="assets/img/69b52eb44fab41a0080073fbb084203b_85625.png" alt="">
                         <p>핫세일</p>
@@ -117,7 +139,9 @@
                     </a></li>
             </ul>
         </div> <!-- //.sale -->
-        <div class="minho recommend">
+        </div>
+        <div class="minho-wrapper">
+            <div class="minho recommend">
             <h2 class="title"><img src="assets/img/main_title_icon_recommend.png" alt="title">추천상품</h2>
             <div class="reco-inner">
                 <div class="reco-left">
@@ -149,7 +173,9 @@
                 </div>
             </div>
         </div><!-- //.recommend -->
-        <div class="minho gift">
+        </div>
+        <div class="minho-wrapper">
+            <div class="minho gift">
             <div class="gift-left"><img src="assets/img/b8dae3d3ac630c8978afba3e7c95366a_91537.svg" alt=""></div>
             <div class="gift-right">
                 <div class="gift-top">
@@ -181,7 +207,9 @@
                 </div>
             </div>
         </div><!-- //.gift -->
-        <div class="minho news">
+        </div>
+        <div class="minho-wrapper">
+            <div class="minho news">
             <div class="news-title">
                 <div>
                     <h2 class="title"><img src="assets/img/main_title_icon_recommend.png" alt="title">도드람소식</h2>
@@ -212,19 +240,25 @@
                 </div>
             </div>
         </div> <!-- //.news -->
-        <div class="minho qna">
-            <div><img src="assets/img/6337f528cec8aec082b7cf72e4013d1d_18934.svg" alt="AtoZ"></div>
-            <div>
-                <p class="tit">공지사항</p>
-                <p class="txt">도드람몰 업데이트사항, 여기서 확인</p>
-                <div class="arrow-btn"></div>
+        </div>
+        </div>
+        <div class="woojin">
+            <div class="sec3">
+                <div class="qna">
+                    <a href="https://dodrammall.com/service/qa.php"><img class="atoz" src="assets/img/6337f528cec8aec082b7cf72e4013d1d_18934.svg" alt=""></a>
+                    <div class="sec3_right">
+                        <div class="notice">
+                            <p><span>공지사항</span><br>
+                            도드람몰 업데이트 소식, 여기서 확인!</p>
+                        </div>
+                        <div class="faq">
+                            <p><span>FAQ</span><br>
+                            처음 방문하셨나요? 도드람몰을 200% 활용하는 꿀팁</p>
+                        </div>
+                    </div>
+                </div>
+                <img class="temper" src="assets/img/b9057f38a6d6c303c3e027ecea3f1137_14398.svg" alt="">
             </div>
-            <div>
-                <p class="tit">FAQ</p>
-                <p class="txt">처음방문하셨나요? 도드람몰을 200%활용하는 꿀팁</p>
-                <div class="arrow-btn"></div>
-            </div>
-            <div><img src="assets/img/b9057f38a6d6c303c3e027ecea3f1137_14398.svg" alt=""></div>
         </div>
     </main>
 
