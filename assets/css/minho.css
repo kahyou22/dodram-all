@@ -305,7 +305,7 @@
 }
 
 .minho-wrapper .news-left,
-.news-right {
+.minho-wrapper .news-left .news-right {
     border: 1px solid #000;
     padding: 30px;
     background: #fff;

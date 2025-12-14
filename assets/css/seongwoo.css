@@ -47,18 +47,18 @@
     height: 650px;
 }
 /* 슬라이드 */
-.seongwoo .left-slides , .right-slides{
+.seongwoo .left-slides , .seongwoo .right-slides{
     display: flex;
     width: calc(100% * 5);
     height: 100%;
-    animation-name:slideRoll;
+    animation-name:seongwooSlideRoll;
     animation-duration: 16s;
     animation-timing-function: linear;
     animation-delay: .5s;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
    }
-@keyframes slideRoll {
+@keyframes seongwooSlideRoll {
      0% {transform: translateX(0);}
     1.66% {transform: translateX(-20%);}
     25.33% {transform: translateX(-20%);}
@@ -83,7 +83,7 @@
 }
 /*기존이미지 변경시 js 사용하던지 div로 태그변경해서 해볼것*/
 
-.seongwoo .main-recommend img , .main-gift-set img{
+.seongwoo .main-recommend img , .seongwoo .main-gift-set img{
     width: 58px;
     height: 58px;
 }
@@ -91,7 +91,7 @@
     width: 535px;
     height: 666px;
 }
-.seongwoo h1 , main p {
+.seongwoo h1 , .seongwoo main p {
     text-align: center;
 }
 .seongwoo .sub-menu-list {

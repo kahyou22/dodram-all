@@ -144,7 +144,7 @@ html, body {
     margin: auto;
     transition: .5s;
 }
-#gnb .main li:not(:last-of-type)::after {
+#gnb .main > li:not(:last-of-type)::after {
     position: absolute;
     content: "";
     width: 3px;
@@ -166,7 +166,7 @@ html, body {
 #gnb .main li {
     position: relative;
 }
-#gnb .main li:hover>.sub {
+#gnb .main li:hover>.sub-wrapper {
     display: block;
 }
 /* #gnb .main li:nth-of-type(1) a, 
@@ -176,11 +176,14 @@ html, body {
 } */
 
 /* 서브메뉴 */
-#gnb .sub {
+#gnb .sub-wrapper {
     display: none;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 1000;
+}
+#gnb .sub {
     font-size: 0.875rem;
     line-height: 1.8;
     font-weight: 300;

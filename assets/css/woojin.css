@@ -156,9 +156,9 @@
     display: flex;
     width: calc(100% * 1);
     height: 100%;
-    animation: slideRoll 5s infinite ease-in-out;
+    animation: woojinSlideRoll 5s infinite ease-in-out;
 }
-@keyframes slideRoll {
+@keyframes woojinSlideRoll {
     0% {transform:translateX(0);}
     50% {transform:translateX(0);}
     100% {transform:translateX(-100%);}
@@ -179,9 +179,9 @@
     width: calc(100% * 2); 
     height: 100%;
     border-radius: 23px;
-    animation: slideRoll2 8s infinite ease-in-out;
+    animation: woojinSlideRoll2 8s infinite ease-in-out;
         }
-@keyframes slideRoll2 {
+@keyframes woojinSlideRoll2 {
     0% {transform:translateX(0);}
     25% {transform:translateX(-400px);}
     50% {transform:translateX(-400px);}
