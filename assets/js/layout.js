@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const headerHTML = `<!-- header -->
+    const headerHTML = /*HTML*/`<!-- header -->
         <header class="woojin">
             <div id="header">
                 <div class="inner">
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </header> <!-- header -->
     `;
 
-    const footerHTML = `<!-- footer -->
+    const footerHTML = /*HTML*/`<!-- footer -->
         <footer class="woojin">
             <div id="footer">
                 <div class="inner">
