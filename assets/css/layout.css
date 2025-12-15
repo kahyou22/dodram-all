@@ -78,7 +78,7 @@ html, body {
     position: relative;
 }
 #header .inner {
-    max-width: 1320px;
+    max-width: 1520px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -269,7 +269,7 @@ html, body {
     font-size: 0.75rem;
 }
 #footer .inner {
-    max-width: 1320px;
+    max-width: 1520px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
