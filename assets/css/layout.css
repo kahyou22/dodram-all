@@ -276,6 +276,7 @@ html, body {
     align-items: flex-end;
     /* padding: 16px; */
     /* background: #555; */
+    text-align: left;
 }
 #footer .footer_bottom {
     margin-top: 70px;
