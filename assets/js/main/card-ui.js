@@ -1,18 +1,20 @@
+/**
+ * @author 김민호
+ */
+
 const container = document.getElementById("card-ui");
 
-card.forEach(data => {
-    const el = document.createElement("div");
+card.forEach((data) => {
+  const el = document.createElement("div");
 
-    // 값이 있을 때만 HTML 생성
-    const spanHtml = data.span && data.span.trim() !== "" 
-        ? `<span>${data.span}</span>`
-        : "";
+  // 값이 있을 때만 HTML 생성
+  const spanHtml =
+    data.span && data.span.trim() !== "" ? `<span>${data.span}</span>` : "";
 
-    const delHtml = data.del && data.del.trim() !== ""
-        ? `<del>${data.del}</del>`
-        : "";
+  const delHtml =
+    data.del && data.del.trim() !== "" ? `<del>${data.del}</del>` : "";
 
-    el.innerHTML = `
+  el.innerHTML = `
         <a href="#">
             <div class="card-img">
                 <img src="${data.img}">
@@ -34,24 +36,22 @@ card.forEach(data => {
         </a>
     `;
 
-    container.appendChild(el);
+  container.appendChild(el);
 });
 
 const container2 = document.getElementById("card-ui2");
 
-card2.forEach(data2 => {
-    const el = document.createElement("div");
+card2.forEach((data2) => {
+  const el = document.createElement("div");
 
-    // 값이 있을 때만 HTML 생성
-    const spanHtml = data2.span && data2.span.trim() !== "" 
-        ? `<span>${data2.span}</span>`
-        : "";
+  // 값이 있을 때만 HTML 생성
+  const spanHtml =
+    data2.span && data2.span.trim() !== "" ? `<span>${data2.span}</span>` : "";
 
-    const delHtml = data2.del && data2.del.trim() !== ""
-        ? `<del>${data2.del}</del>`
-        : "";
+  const delHtml =
+    data2.del && data2.del.trim() !== "" ? `<del>${data2.del}</del>` : "";
 
-    el.innerHTML = `
+  el.innerHTML = `
         <a href="#">
             <div class="card-img">
                 <img src="${data2.img}">
@@ -73,5 +73,5 @@ card2.forEach(data2 => {
         </a>
     `;
 
-    container2.appendChild(el);
+  container2.appendChild(el);
 });
