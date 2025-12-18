@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                     <li><a href="">도드람한돈</a></li>
                                     <li><a href="">THE짙은</a></li>
                                     <li><a href="">캔돈</a></li>
-                                    <li><a href="/about.html">회사 소개</a></li>
+                                    <li><a href="/about.html">Dodrammall</a></li>
                                 </ul>
                             </div>
                         </li>
