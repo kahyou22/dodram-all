@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <a href="#">고객센터</a>
                         <a href=""><img src="/assets/img/layout/mu_coupon_icon.svg" alt="쿠폰"></a>
                         <a href=""><img src="/assets/img/layout/mu_mypage_icon.svg" alt="마이페이지"></a>
-                        <a href=""><img src="/assets/img/layout/mu_basket_icon.svg" alt="장바구니"></a>
+                        <a href="/orders/cart.html"><img src="/assets/img/layout/mu_basket_icon.svg" alt="장바구니"></a>
                     </div> <!-- //top_link -->
                 </div> <!-- //inner -->
                 <!-- navigation -->
@@ -24,8 +24,8 @@ document.addEventListener("DOMContentLoaded", () => {
                         <li><a href="">베스트</a></li>
                     </ul>
                     <ul class="main">
-                        <li><a href="">신선정육</a>
-                            <div class="sub-wrapper">
+                        <li><a href="/product/product_list.html">신선정육</a>
+                            <!--<div class="sub-wrapper">
                                 <ul class="sub">
                                     <li><a href="">한우</a></li>
                                     <li><a href="">한돈</a></li>
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                     <li><a href="">앞다리/뒷다리</a></li>
                                     <li><a href="">특수부위/기타</a></li>
                                 </ul>
-                            </div>
+                            </div>-->
                         </li>
                         <li><a href="">간편식</a>
                             <div class="sub-wrapper">
