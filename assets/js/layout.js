@@ -123,6 +123,52 @@ document.addEventListener("DOMContentLoaded", () => {
             </div> <!-- //#footer -->
         </footer> <!-- footer -->
     `;
+
   document.body.insertAdjacentHTML("afterbegin", headerHTML);
   document.body.insertAdjacentHTML("beforeend", footerHTML);
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const sideMenuHTML = /*HTML*/ `<!-- side-menu -->
+        <div id="layout-side-menu">
+            <div class="btn-toggle">
+                <img src="/assets/img/main/scl_bt.gif" alt="우측 클릭 버튼">
+            </div>
+            <div class="menu-list">
+                <a href="/notice/notice_list.html" class="icon-box">
+                    <img src="/assets/img/main/scl_icon01.png">
+                    <span>공지사항</span>
+                </a>
+                <a class="icon-box">
+                    <img src="/assets/img/main/scl_icon02.png">
+                    <span>고객센터</span>
+                </a>
+                <a class="icon-box">
+                    <img src="/assets/img/main/scl_icon03.png">
+                    <span>배송조회</span>
+                </a>
+                <a class="icon-box">
+                    <img src="/assets/img/main/scl_icon04.png">
+                    <span>마이쇼핑</span>
+                </a>
+                <a class="icon-box">
+                    <img src="/assets/img/main/scl_icon05.png">
+                    <span>장바구니</span>
+                </a>
+                <!-- <a class="icon-box">
+                    <img src="https://dodrammall.com/data/skin/front/mo_designart/img/da_image/scl_icon_cou.png">
+                    <span>상품권/쿠폰등록하기</span>
+                </a> -->
+            </div>
+        </div>
+    `;
+
+  document.body.insertAdjacentHTML("beforeend", sideMenuHTML);
+
+  const sideMenu = document.querySelector("#layout-side-menu");
+  const btnToggle = sideMenu.querySelector(".btn-toggle");
+
+  btnToggle.addEventListener("click", () => {
+    sideMenu.classList.toggle("open");
+  });
 });

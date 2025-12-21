@@ -335,3 +335,40 @@ logo {
 #footer img {
     width: 220px;
 }
+
+/* 사이드 메뉴 */
+#layout-side-menu {
+    position: fixed;
+    top: 500px;
+    right: 0;
+    width: 240px;
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
+
+#layout-side-menu:not(.open) {
+    transform: translateX(100%);
+}
+
+#layout-side-menu .btn-toggle {
+    position: absolute;
+    left: -30px;
+}
+
+#layout-side-menu .menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 20px;
+    width: 240px;
+    background-color: #fff;
+    border: 2px dotted red;
+}
+
+#layout-side-menu .menu-list .icon-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-decoration: none;
+    color: #000;
+}
