@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <img src="/assets/img/main/scl_icon04.png">
                     <span>마이쇼핑</span>
                 </a>
-                <a class="icon-box">
+                <a href="/orders/cart.html" class="icon-box">
                     <img src="/assets/img/main/scl_icon05.png">
                     <span>장바구니</span>
                 </a>
