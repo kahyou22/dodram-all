@@ -6,7 +6,7 @@
     <title>신선한 식탁을 즐기다, 도드람몰입니다.</title>
     <link rel="icon" href="/assets/img/main/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="/assets/css/layout.css" />
-    <link rel="stylesheet" href="/assets/css/mypage/mypage_orderlist_diliversearch.css">
+    <link rel="stylesheet" href="/assets/css/mypage/mypage_claim.css">
     <link
       rel="stylesheet"
       as="style"
@@ -98,53 +98,31 @@
                         <span>0</span><span>원</span>
                     </div>
                 </div><!-- right-top-title -->
-        <div class="order-search">
-  <h3 class="title">주문목록/배송조회</h3>
-
-  <div class="search-box">
-    <span class="label">조회기간</span>
-
-    <div class="btn-group">
-      <button>오늘</button>
-      <button class="active">7일</button>
-      <button>15일</button>
-      <button>1개월</button>
-      <button>3개월</button>
-      <button>1년</button>
-    </div>
-
-    <input type="date" value="2025-12-22">
-    <span class="tilde">~</span>
-    <input type="date" value="2025-12-29">
-
-    <button class="search-btn">
-      조회 <i class="fa-solid fa-magnifying-glass"></i>
-    </button>
-  </div><!-- //search-box -->
-</div><!--// order-search -->
-
-               
-                    <div class="middle-title" >
-                        <h3>주문목록/배송조회 내역 총<span>0</span>건 </h3>
+        
+                <h3 class="middle-title">찜리스트 </h3>
                         
-                    </div>
                     <table class="middle-content">
                         <tr>
-                            <th>날짜/주문번호</th>
-                            <th>배송지</th>
+                            <th><input type="checkbox" id="chk1" name="chkgroup" value="a"></th>
                             <th>상품명/옵션</th>
                             <th>상품금액/수량</th>
-                            <th>주문상태</th>
-                            <th>확인/리뷰</th>
+                            <th>혜택</th>
+                            <th>합계</th>
                         </tr>
                         
                         <tr>
-                            <td colspan="6">조회내역이 없습니다</td>
+                            <td colspan="5">찜리스트에 상품이 없습니다.</td>
                         </tr>
                         
-                    </table>
+                    </table>   
+                  <div>
+                    <button>선택상품 삭제</button>
+                    <button>선택상품 장바구니</button>
+                  </div>              
+</div>
+</div>
+                        
                 
-            </div>
       </div><!-- main-container -->
     </main>
     <script>

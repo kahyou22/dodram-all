@@ -6,7 +6,7 @@
     <title>신선한 식탁을 즐기다, 도드람몰입니다.</title>
     <link rel="icon" href="/assets/img/main/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="/assets/css/layout.css" />
-    <link rel="stylesheet" href="/assets/css/mypage/mypage_orderlist_diliversearch.css">
+    <link rel="stylesheet" href="/assets/css/mypage/mypage_claim.css">
     <link
       rel="stylesheet"
       as="style"
@@ -99,7 +99,7 @@
                     </div>
                 </div><!-- right-top-title -->
         <div class="order-search">
-  <h3 class="title">주문목록/배송조회</h3>
+  <h3 class="title">쿠폰</h3>
 
   <div class="search-box">
     <span class="label">조회기간</span>
@@ -122,20 +122,30 @@
     </button>
   </div><!-- //search-box -->
 </div><!--// order-search -->
-
-               
-                    <div class="middle-title" >
-                        <h3>주문목록/배송조회 내역 총<span>0</span>건 </h3>
+                    <!-- 탭버튼시작 -->
+                     <nav class="claim-tabs">
+                    <a href="mypage_coupon_list.html" class="tab active">
+                        사용 가능
+                    </a>
+                    <a href="mypage_coupon_status.html" class="tab">
+                        사용 불가
+                    </a>
+                    </nav>
+                    <!-- 탭버튼끝 -->
+                <p class="date-range-text" id="dateRangeText"></p>
+                
+                    <!-- <div class="middle-title" >
+                        <h3>쿠폰내역 </h3>
                         
-                    </div>
+                    </div> -->
                     <table class="middle-content">
                         <tr>
-                            <th>날짜/주문번호</th>
-                            <th>배송지</th>
-                            <th>상품명/옵션</th>
-                            <th>상품금액/수량</th>
-                            <th>주문상태</th>
-                            <th>확인/리뷰</th>
+                            <th>쿠폰명</th>
+                            <th>혜택</th>
+                            <th>사용조건</th>
+                            <th>제한조건</th>
+                            <th>유효기간</th>
+                            <th>발급일</th>
                         </tr>
                         
                         <tr>
@@ -197,6 +207,7 @@ periodButtons.forEach(btn => {
     if (text === "오늘") {
       // 그대로
     } else if (text === "7일") {
+      // periodText.textContent = "최근 7일간의 쿠폰내역";
       startDate.setDate(today.getDate() - 7);
     } else if (text === "15일") {
       startDate.setDate(today.getDate() - 15);
@@ -211,9 +222,21 @@ periodButtons.forEach(btn => {
     // input에 반영
     startDateInput.value = formatDate(startDate);
     endDateInput.value = formatDate(today);
+    updatePeriodTextByButton(text);
   });
 });
         //주문조회 끝
+        // 초기 표시 (페이지 로드시)
+// 7일 전 날짜 계산
+const defaultStartDate = new Date(today);
+defaultStartDate.setDate(today.getDate() - 7);
+
+// input 값 설정
+startDateInput.value = formatDate(defaultStartDate);
+endDateInput.value = formatDate(today);
+
+dateRangeText.innerText =
+  `${startDateInput.value} ~ ${endDateInput.value} 까지의 쿠폰내역`;
 </script>
   </body>
 </html>
