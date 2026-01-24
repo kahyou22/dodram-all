@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                 alt="도드람로고"></a></h1>
                     <!-- top link -->
                     <div class="top_link">
-                        <a href="#">로그인</a>
+                        <a href="/member/login.html">로그인</a>
                         <a href="#">회원가입</a>
                         <a href="/service/service.html">고객센터</a>
                         <a href=""><img src="/assets/img/layout/mu_coupon_icon.svg" alt="쿠폰"></a>
