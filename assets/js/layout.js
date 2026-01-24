@@ -19,12 +19,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 <!-- navigation -->
                 <nav id="gnb">
                     <ul class="menu_left">
-                        <li><a href="">핫세일</a></li>
-                        <li><a href="">신제품</a></li>
-                        <li><a href="">베스트</a></li>
+                        <li><a href="/product/product_list_1.html">핫세일</a></li>
+                        <li><a href="/product/product_list_2.html">신제품</a></li>
+                        <li><a href="/product/product_list_3.html">베스트</a></li>
                     </ul>
                     <ul class="main">
-                        <li><a href="/product/product_list.html">신선정육</a>
+                        <li><a href="/product/product_list_4.html">신선정육</a>
                             <!--<div class="sub-wrapper">
                                 <ul class="sub">
                                     <li><a href="">한우</a></li>
@@ -38,8 +38,8 @@ document.addEventListener("DOMContentLoaded", () => {
                                 </ul>
                             </div>-->
                         </li>
-                        <li><a href="">간편식</a>
-                            <div class="sub-wrapper">
+                        <li><a href="/product/product_list_5.html">간편식</a>
+                            <!--<div class="sub-wrapper">
                                 <ul class="sub">
                                     <li><a href="">국/탕/찌개</a></li>
                                     <li><a href="">돈까스/튀김</a></li>
@@ -47,23 +47,23 @@ document.addEventListener("DOMContentLoaded", () => {
                                     <li><a href="">양념/볶음</a></li>
                                     <li><a href="">안주/야식</a></li>
                                 </ul>
-                            </div>
+                            </div>-->
                         </li>
-                        <li><a href="">선물세트</a>
-                            <div class="sub-wrapper">
+                        <li><a href="/product/product_list_6.html">선물세트</a>
+                            <!--<div class="sub-wrapper">
                                 <ul class="sub">
                                     <li><a href="">한돈</a></li>
                                     <li><a href="">한우</a></li>
                                     <li><a href="">간편식</a></li>
                                 </ul>
-                            </div>
+                            </div>-->
                         </li>
-                        <li><a href="">브랜드관</a>
+                        <li><a href="/product/product_list_7.html">브랜드관</a>
                             <div class="sub-wrapper">
                                 <ul class="sub">
-                                    <li><a href="">도드람한돈</a></li>
+                                    <!--<li><a href="">도드람한돈</a></li>
                                     <li><a href="">THE짙은</a></li>
-                                    <li><a href="">캔돈</a></li>
+                                    <li><a href="">캔돈</a></li>-->
                                     <li><a href="/about.html">Dodrammall</a></li>
                                 </ul>
                             </div>
