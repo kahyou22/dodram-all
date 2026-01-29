@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div class="footer_bottom">
                             <div class="service">
                                 <a href="/service/agreement.html">이용약관</a>
-                                <a href="#/service/private.html">개인정보처리방침</a>
+                                <a href="/service/qa/qa_private.html">개인정보처리방침</a>
                                 <a href="/service/guide.html">쇼핑몰이용안내</a>
                                 <a href="/service/service.html">고객센터</a>
                             </div> <!-- //service -->
