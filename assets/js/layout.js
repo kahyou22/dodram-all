@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <!-- top link -->
                     <div class="top_link">
                         <a href="/member/login.html">로그인</a>
-                        <a href="#">회원가입</a>
+                        <a href="/member/register.html">회원가입</a>
                         <a href="/service/service.html">고객센터</a>
                         <a href=""><img src="/assets/img/layout/mu_coupon_icon.svg" alt="쿠폰"></a>
                         <a href="/member/mypage.html"><img src="/assets/img/layout/mu_mypage_icon.svg" alt="마이페이지"></a>
