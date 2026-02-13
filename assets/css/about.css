@@ -17,7 +17,7 @@
 }
 #about .inner h1 {
     background: #fff;
-    width: 190px;
+    width: fit-content;
     height: 100px;
     padding: 5px 20px 0 20px;
     border-radius: 10px;
